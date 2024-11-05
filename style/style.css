@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Roboto, sans-serif;
+}
+
 .header-section {
     background-color: #1F2937;
-    font-family: Roboto, sans-serif;
     padding: 20px 150px 100px 150px;
     display: flex;
     flex-direction: column;
@@ -58,7 +61,7 @@ header {
 .hero {
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 30px;
 }
 
 button {
@@ -75,13 +78,19 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 50px 200px;
-    gap: 50px;
+    gap: 40px;
+}
+
+.information h2 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .cards {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card {
@@ -89,4 +98,10 @@ button {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 10px;
+}
+
+.card img {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
 }
