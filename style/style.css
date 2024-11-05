@@ -8,6 +8,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+/* HEADER SECTION */
+
 .header-section {
     background-color: #1F2937;
     padding: 20px 150px 100px 150px;
@@ -73,6 +75,8 @@ button {
     font-weight: 700;
 }
 
+/* INFORMATION SECTION */
+
 .information {
     display: flex;
     flex-direction: column;
@@ -89,8 +93,9 @@ button {
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .card {
@@ -104,4 +109,28 @@ button {
 .card img {
     border: 5px solid #3882f6;
     border-radius: 20px;
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote {
+    text-align: justify;
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.byline {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px;
 }
