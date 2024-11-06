@@ -1,5 +1,5 @@
 # Odin Landing Page
-- Part of the Odin Project's Foundations course.
+- [Part of the Odin Project's Foundations course](https://www.theodinproject.com/lessons/foundations-landing-page).
 - To demonstrate the ability to build webpages by looking at a design using HTML, and CSS.
 
 ## Learnings/Practice
